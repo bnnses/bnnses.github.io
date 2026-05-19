@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BNNSES — The luxury silk scarf reimagined for the modern woman. Timeless elegance, crafted for you." />
+  <meta name="keywords" content="BNNSES, luxury silk scarf, women fashion, premium accessories, elegant scarf" />
+  <meta property="og:title" content="BNNSES — Wear Your Story" />
+  <meta property="og:description" content="The Lumière Silk Scarf. One piece. Infinite ways to wear it." />
+  <title>BNNSES — Wear Your Story</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- ─── NAVBAR ─── -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">BNN<span>S</span>ES</a>
+  <ul class="nav-links">
+    <li><a href="#product">The Piece</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#testimonials">Stories</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#product" class="nav-cta">Shop Now</a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#product" onclick="closeMobileMenu()">The Piece</a>
+  <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
+  <a href="#testimonials" onclick="closeMobileMenu()">Stories</a>
+  <a href="#faq" onclick="closeMobileMenu()">FAQ</a>
+  <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+</div>
+
+<!-- ─── HERO ─── -->
+<section id="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Introducing The Lumière Collection</p>
+    <h1 class="hero-headline">
+      Draped in<br><em>liquid silk.</em><br>Made for you.
+    </h1>
+    <p class="hero-sub">The Lumière Silk Scarf — one exquisite piece, infinite ways to wear it. Because luxury was always meant to move with you.</p>
+    <div class="hero-actions">
+      <a href="#product" class="btn-primary"><span>Discover the Piece</span></a>
+      <a href="#gallery" class="btn-ghost">View Gallery</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ─── MARQUEE ─── -->
+<div class="marquee-strip">
+  <div class="marquee-track" id="marqueeTrack">
+    <span>Pure Silk</span><span class="dot">✦</span>
+    <span>Hand Finished</span><span class="dot">✦</span>
+    <span>Ethically Crafted</span><span class="dot">✦</span>
+    <span>Limited Edition</span><span class="dot">✦</span>
+    <span>BNNSES Lumière</span><span class="dot">✦</span>
+    <span>Wear Your Story</span><span class="dot">✦</span>
+    <span>Free Worldwide Shipping</span><span class="dot">✦</span>
+    <span>Pure Silk</span><span class="dot">✦</span>
+    <span>Hand Finished</span><span class="dot">✦</span>
+    <span>Ethically Crafted</span><span class="dot">✦</span>
+    <span>Limited Edition</span><span class="dot">✦</span>
+    <span>BNNSES Lumière</span><span class="dot">✦</span>
+    <span>Wear Your Story</span><span class="dot">✦</span>
+    <span>Free Worldwide Shipping</span><span class="dot">✦</span>
+  </div>
+</div>
+
+<!-- ─── PRODUCT ─── -->
+<section id="product">
+  <div class="product-visual reveal-left">
+    <img
+      class="product-img-main"
+      src="https://images.unsplash.com/photo-1591124495480-71f02e0e4434?w=900&q=85&auto=format&fit=crop"
+      alt="The Lumière Silk Scarf — BNNSES"
+      loading="lazy"
+    />
+    <div class="product-badge" aria-label="Limited Edition">
+      Limited<br/>Edition<br/>✦ 2025 ✦
+    </div>
+    <img
+      class="product-img-accent"
+      src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&q=80&auto=format&fit=crop"
+      alt="BNNSES lifestyle"
+      loading="lazy"
+    />
+  </div>
+  <div class="product-text reveal-right">
+    <p class="section-label">The Signature Piece</p>
+    <div class="divider"></div>
+    <h2 class="section-title">The Lumière<br><em>Silk Scarf</em></h2>
+    <p class="product-tagline">"Everything you need. Nothing you don't."</p>
+    <p class="section-body">
+      Woven from 100% Grade 6A Mulberry Silk, the Lumière is not just a scarf — it's a feeling. Wear it as a head wrap, a belt, a bag accent, or draped effortlessly over your shoulders. Each piece is hand-finished by artisan craftswomen in the French tradition.
+    </p>
+    <ul class="product-features">
+      <li>100% Grade 6A Mulberry Silk</li>
+      <li>Hand-rolled edges, artisan-finished</li>
+      <li>18 exclusive colourways — limited stock</li>
+      <li>90cm × 90cm perfect square format</li>
+      <li>Comes in a signature BNNSES gift box</li>
+      <li>Free engraving on request</li>
+    </ul>
+    <div class="product-price">$195 <small>USD — free shipping</small></div>
+    <a href="#contact" class="btn-primary" style="margin-top:0.5rem;"><span>Claim Yours Today →</span></a>
+  </div>
+</section>
+
+<!-- ─── BENEFITS ─── -->
+<section id="benefits">
+  <div style="max-width:600px;">
+    <p class="section-label reveal">Why It's Different</p>
+    <div class="divider reveal delay-1"></div>
+    <h2 class="section-title reveal delay-1">Crafted to last.<br><em>Designed to impress.</em></h2>
+    <p class="section-body reveal delay-2">Four reasons women return to the Lumière — again and again.</p>
+  </div>
+  <div class="benefits-grid">
+    <div class="benefit-card reveal delay-1">
+      <div class="benefit-number">01</div>
+      <div class="benefit-title">Unmatched Silk Quality</div>
+      <p class="benefit-desc">Grade 6A Mulberry Silk is the highest grade available — naturally hypoallergenic, temperature-regulating, and impossibly soft against skin.</p>
+    </div>
+    <div class="benefit-card reveal delay-2">
+      <div class="benefit-number">02</div>
+      <div class="benefit-title">Endlessly Versatile</div>
+      <p class="benefit-desc">12 ways to wear it — styled as a top, wrapped as a headband, knotted on a bag, or worn as a classic neck scarf. One piece, infinite identities.</p>
+    </div>
+    <div class="benefit-card reveal delay-3">
+      <div class="benefit-number">03</div>
+      <div class="benefit-title">Artisan-Crafted Detail</div>
+      <p class="benefit-desc">Each scarf passes through 8 pairs of skilled hands before reaching you. Hand-rolled edges, inspected seams, and a finish that's unmistakably haute.</p>
+    </div>
+    <div class="benefit-card reveal delay-4">
+      <div class="benefit-number">04</div>
+      <div class="benefit-title">Limited. Always.</div>
+      <p class="benefit-desc">Every colourway is produced in runs of 150 pieces only. When it's gone, it's gone. Ownership is its own kind of luxury.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── GALLERY ─── -->
+<section id="gallery">
+  <div class="gallery-intro">
+    <div>
+      <p class="section-label reveal">The Gallery</p>
+      <div class="divider reveal delay-1"></div>
+      <h2 class="section-title reveal delay-1">Worn every<br><em>beautiful way.</em></h2>
+    </div>
+    <p class="section-body reveal" style="max-width:320px; text-align:right;">Twelve ways to wear it. One hundred ways to feel it. Each image below is a real BNNSES customer.</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item reveal">
+      <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800&q=80&auto=format&fit=crop" alt="Lumière worn as shoulder drape" loading="lazy" />
+      <div class="gallery-item-overlay"><span class="gallery-item-label">The Drape</span></div>
+    </div>
+    <div class="gallery-item reveal delay-1">
+      <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&q=80&auto=format&fit=crop" alt="Lumière worn as head wrap" loading="lazy" />
+      <div class="gallery-item-overlay"><span class="gallery-item-label">The Wrap</span></div>
+    </div>
+    <div class="gallery-item reveal delay-2">
+      <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600&q=80&auto=format&fit=crop" alt="Lumière worn as belt" loading="lazy" />
+      <div class="gallery-item-overlay"><span class="gallery-item-label">The Belt</span></div>
+    </div>
+    <div class="gallery-item reveal delay-1">
+      <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&q=80&auto=format&fit=crop" alt="Lumière worn around neck" loading="lazy" />
+      <div class="gallery-item-overlay"><span class="gallery-item-label">The Classic</span></div>
+    </div>
+    <div class="gallery-item reveal delay-3">
+      <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&q=80&auto=format&fit=crop" alt="Lumière with handbag" loading="lazy" />
+      <div class="gallery-item-overlay"><span class="gallery-item-label">The Bag Knot</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── TESTIMONIALS ─── -->
+<section id="testimonials">
+  <div class="testimonials-header">
+    <p class="section-label reveal">Women Who Wear It</p>
+    <div class="divider reveal delay-1"></div>
+    <h2 class="section-title reveal delay-1">Why women<br><em>love the Lumière.</em></h2>
+    <p class="section-body reveal delay-2" style="margin: 0 auto; text-align:center;">Over 4,800 women have already made it theirs. Here's what they say.</p>
+  </div>
+  <div class="testimonials-grid">
+    <div class="testimonial-card reveal">
+      <div class="stars">★★★★★</div>
+      <div class="testimonial-quote">"</div>
+      <p class="testimonial-text">I wore this to Paris fashion week and three editors stopped me to ask where it was from. It's the most effortlessly chic thing I own.</p>
+      <div class="testimonial-author">
+        <img class="author-avatar" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=120&q=80&auto=format&fit=crop&face" alt="Sofia M." loading="lazy" />
+        <div class="author-info">
+          <span class="author-name">Sofia M.</span>
+          <span class="author-role">Fashion Editor, Milan</span>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal delay-1">
+      <div class="stars">★★★★★</div>
+      <div class="testimonial-quote">"</div>
+      <p class="testimonial-text">The silk feels unreal — I've owned scarves from the big houses and this holds its own. The limited edition aspect makes it feel genuinely special.</p>
+      <div class="testimonial-author">
+        <img class="author-avatar" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=120&q=80&auto=format&fit=crop&face" alt="Aisha K." loading="lazy" />
+        <div class="author-info">
+          <span class="author-name">Aisha K.</span>
+          <span class="author-role">Stylist, Dubai</span>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal delay-2">
+      <div class="stars">★★★★★</div>
+      <div class="testimonial-quote">"</div>
+      <p class="testimonial-text">I bought three — one for me, one for my mother, one for my best friend. The packaging alone brought her to tears. Absolute luxury at an honest price.</p>
+      <div class="testimonial-author">
+        <img class="author-avatar" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=120&q=80&auto=format&fit=crop&face" alt="Camille D." loading="lazy" />
+        <div class="author-info">
+          <span class="author-name">Camille D.</span>
+          <span class="author-role">Interior Designer, Paris</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── LIFESTYLE ─── -->
+<section id="lifestyle" style="padding:0;">
+  <div class="lifestyle-img reveal-left">
+    <img src="https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?w=1000&q=80&auto=format&fit=crop" alt="BNNSES lifestyle" loading="lazy" />
+  </div>
+  <div class="lifestyle-text">
+    <div class="lifestyle-inner reveal-right">
+      <p class="section-label">The BNNSES Woman</p>
+      <div class="divider"></div>
+      <h2 class="section-title">She doesn't<br>follow trends —<br><em>she sets them.</em></h2>
+      <p class="section-body">The Lumière is for the woman who chooses intention over impulse. Who buys fewer, better things. Who knows that true elegance is never loud.</p>
+      <div class="lifestyle-stats">
+        <div class="stat-item">
+          <div class="stat-number">4.9</div>
+          <div class="stat-label">Average Rating</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">4.8K</div>
+          <div class="stat-label">Happy Owners</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">150</div>
+          <div class="stat-label">Per Colourway</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">18</div>
+          <div class="stat-label">Exclusive Tones</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SOCIAL PROOF ─── -->
+<section id="social-proof">
+  <p class="section-label reveal">Social Proof</p>
+  <div class="divider reveal delay-1" style="margin:0 auto 1.5rem;"></div>
+  <h2 class="section-title reveal delay-1" style="text-align:center;">As seen on<br><em>Instagram & TikTok</em></h2>
+  <p class="section-body reveal delay-2" style="margin:0 auto; text-align:center;">Tag #BNNSESLumière to be featured.</p>
+  <div class="social-feed">
+    <div class="social-item reveal">
+      <img src="https://images.unsplash.com/photo-1506252374453-ef5237291d83?w=400&q=80&auto=format&fit=crop" alt="social 1" loading="lazy" />
+      <div class="social-overlay"><span>@eleonore.style</span></div>
+    </div>
+    <div class="social-item reveal delay-1">
+      <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80&auto=format&fit=crop" alt="social 2" loading="lazy" />
+      <div class="social-overlay"><span>@aisha.luxe</span></div>
+    </div>
+    <div class="social-item reveal delay-2">
+      <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df?w=400&q=80&auto=format&fit=crop" alt="social 3" loading="lazy" />
+      <div class="social-overlay"><span>@camille_paris</span></div>
+    </div>
+    <div class="social-item reveal delay-3">
+      <img src="https://images.unsplash.com/photo-1512361436605-a484bdb34b5f?w=400&q=80&auto=format&fit=crop" alt="social 4" loading="lazy" />
+      <div class="social-overlay"><span>@sophiamode</span></div>
+    </div>
+    <div class="social-item reveal delay-4">
+      <img src="https://images.unsplash.com/photo-1495385794356-15371f348c31?w=400&q=80&auto=format&fit=crop" alt="social 5" loading="lazy" />
+      <div class="social-overlay"><span>@lumierelife</span></div>
+    </div>
+    <div class="social-item reveal delay-1">
+      <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&q=80&auto=format&fit=crop" alt="social 6" loading="lazy" />
+      <div class="social-overlay"><span>@bnnses.official</span></div>
+    </div>
+  </div>
+  <p class="social-handle reveal">#BNNSESLumière · @bnnses.official</p>
+</section>
+
+<!-- ─── FAQ ─── -->
+<section id="faq">
+  <div class="faq-grid">
+    <div>
+      <p class="section-label reveal">Questions</p>
+      <div class="divider reveal delay-1"></div>
+      <h2 class="section-title reveal delay-1">Everything<br>you'd like<br><em>to know.</em></h2>
+      <p class="section-body reveal delay-2">Can't find your answer? Write to us directly — we typically reply within 4 hours.</p>
+      <a href="#contact" class="btn-primary reveal delay-3" style="margin-top:2rem; display:inline-block;"><span>Ask Us Anything</span></a>
+    </div>
+    <div class="faq-list reveal delay-1">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What silk grade is the Lumière made from?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">The Lumière is crafted exclusively from Grade 6A Mulberry Silk — the highest grade commercially available. It is naturally hypoallergenic, breathable, and possesses an incomparable lustre that lower grades simply cannot replicate.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How do I care for my silk scarf?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">We recommend hand-washing in cool water with a gentle silk-safe detergent, or dry-cleaning. Lay flat to dry — never wring or tumble dry. Iron on the lowest heat setting with a pressing cloth. With proper care, your Lumière will outlast every other piece in your wardrobe.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Do you offer worldwide shipping?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">Yes — every order ships worldwide, free of charge, via tracked DHL Express. Delivery typically takes 3–5 business days to most locations. Signature gift packaging is included at no extra cost.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What is your returns policy?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">We offer a 30-day, no-questions-asked return policy on all unworn, unaltered pieces in original packaging. Simply contact us at hello@bnnses.com and we'll arrange free return shipping.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Can I order a custom or personalised scarf?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">We offer complimentary blind-embossed initials on the gift box with any order. For bespoke commissions — custom colourways, monogramming on the silk itself, or corporate gifting — please reach out via our contact form below.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Why is each colourway limited to 150 pieces?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">Intentional scarcity is part of our philosophy. The artisan dyeing process for each colourway is a small-batch operation — no two dye lots are perfectly identical. Keeping runs small preserves the integrity of each colour and ensures that wearing one is a genuinely rare experience.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CONTACT ─── -->
+<section id="contact">
+  <div class="contact-grid">
+    <div>
+      <p class="section-label reveal">Get In Touch</p>
+      <div class="divider reveal delay-1"></div>
+      <h2 class="section-title reveal delay-1" style="color:#fff;">Let's talk<br>about your<br><em>perfect piece.</em></h2>
+      <p class="contact-body reveal delay-2">Whether you have a question, want to place a custom order, or simply want to say hello — we're here and we'd love to hear from you.</p>
+      <p class="contact-detail reveal delay-2">Email — <a href="mailto:hello@bnnses.com">hello@bnnses.com</a></p>
+      <p class="contact-detail reveal delay-3">Instagram — <a href="https://instagram.com/bnnses.official" target="_blank" rel="noopener">@bnnses.official</a></p>
+      <p class="contact-detail reveal delay-3">Response Time — Within 4 hours</p>
+    </div>
+    <div class="reveal delay-2">
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/mpqnwkon" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first_name" placeholder="Sofia" required />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" placeholder="Moreau" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="sofia@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="I'd love to order the Lumière in…" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us what's on your mind…" required></textarea>
+        </div>
+        <input type="hidden" name="_subject" value="New BNNSES Enquiry" />
+        <button type="submit" class="form-submit"><span>Send Message →</span></button>
+        <p class="form-success" id="formSuccess">
+          ✦ &nbsp; Thank you — we'll be in touch within 4 hours.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ─── STICKY BUY ─── -->
+<div id="sticky-buy">
+  <a href="#product" class="sticky-btn">
+    <span class="sticky-dot"></span>
+    Buy the Lumière — $195
+  </a>
+</div>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="footer-brand-name">BNN<span>S</span>ES</div>
+      <p class="footer-tagline">"For the woman who curates her life<br>as carefully as her wardrobe."</p>
+      <div class="footer-socials">
+        <a href="#" class="social-icon" aria-label="Instagram">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="#" class="social-icon" aria-label="TikTok">
+          <svg width="13" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.91a8.16 8.16 0 004.77 1.52V7.01a4.85 4.85 0 01-1-.32z"/></svg>
+        </a>
+        <a href="#" class="social-icon" aria-label="Pinterest">
+          <svg width="12" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.04-2.83.18-.77 1.22-5.14 1.22-5.14s-.31-.62-.31-1.54c0-1.45.84-2.53 1.88-2.53.89 0 1.32.67 1.32 1.47 0 .9-.57 2.24-.87 3.48-.25 1.04.52 1.88 1.54 1.88 1.85 0 3.09-2.38 3.09-5.19 0-2.15-1.46-3.65-3.54-3.65-2.41 0-3.83 1.81-3.83 3.68 0 .73.28 1.51.63 1.93.07.08.08.16.06.24l-.24.96c-.04.16-.12.19-.28.11-1.04-.48-1.69-2-1.69-3.21 0-2.61 1.9-5.01 5.48-5.01 2.88 0 5.12 2.05 5.12 4.79 0 2.86-1.8 5.16-4.3 5.16-.84 0-1.63-.44-1.9-.95l-.52 1.94c-.19.71-.69 1.61-1.03 2.15.78.24 1.6.37 2.45.37 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>The Piece</h4>
+      <ul class="footer-links">
+        <li><a href="#product">Lumière Silk Scarf</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#benefits">Why BNNSES</a></li>
+        <li><a href="#testimonials">Stories</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul class="footer-links">
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#">Returns & Exchanges</a></li>
+        <li><a href="#">Shipping Info</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Brand</h4>
+      <ul class="footer-links">
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Wholesale</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2025 BNNSES. All rights reserved. Crafted with intention.</p>
+    <div class="footer-legal">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
